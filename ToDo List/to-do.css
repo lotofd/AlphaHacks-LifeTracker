@@ -23,4 +23,28 @@ body{
     position: relative;
     left: 0%;
   }
+ .list-group-item{
+  background: indigo;
+}
+.delete{
+  cursor: pointer;
+}
+.filtered{
+  display: none !important;
+}
+
+#clear-list{
+  width: 30%;
+  font-weight: bold;
+  font-style: italic;
+  font-size: xx-large;
+  font-family: "arial";
+  margin: 40px 35%;
+  background-color: #423a6f;
+  color: white;
+}
+#clear-list:hover{
+  background-color: indigo;
+  color: white;
+}
   
