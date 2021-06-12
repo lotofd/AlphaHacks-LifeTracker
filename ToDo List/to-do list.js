@@ -48,3 +48,19 @@ addForm.addEventListener('submit', e => {
   }
 
 });
+
+// delete todos event
+list.addEventListener('click', e => {
+
+    if(e.target.classList.contains('delete')){
+      e.target.parentElement.remove();
+    }
+  
+  });
+
+// clear all events
+  function removeAll(){
+    var lst = document.getElementsByClassName("work");
+      lst[0].innerHTML = "";
+  }
+
