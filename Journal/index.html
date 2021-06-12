@@ -8,23 +8,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <div class="container">
-            <h1 > Journal Here</h1>
+    <header>
+        <div class="container" id="container-first">
+            <h1  style="color: #423a6f;"> Journal Here ↓ </h1>
 
             <form action="">
-                <input type="text"  id="note-title" placeholder="#">
-                <textarea id="note-text" placeholder="#"></textarea>
+                <input type="text"  id="note-title" placeholder="DD/MM/YYYY">
+                <textarea id="note-text" placeholder="Today I..."></textarea>
                 <button id="svejournal">Save Journal</button>
 
             </form>
         </div>
-
-    <div class="container">
-        <h2> Journals</h2>
-        <div id="notes">
-           
+    </header>
+       
+    <section>
+        <div class="container" id="container-section">
+            <h2 style="font-size: 40px;color: #423a6f";>Journals</h2>
+            <hr>
+            <div id="notes" class="order">
+                <div class="note" >
+                    <p class="note-counter">Note ${index + 1}</p>
+                    <h3 class="note-title"> $element.title </h3>
+                    <p class="note-text"> $element.text</p>
+                    <button class="note-btn">Delete Entry</button>
+                    <button class="notr-btn edit-btn">Edit Entry</button>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+    
 
     <script src="script.js"></script>
 </body>

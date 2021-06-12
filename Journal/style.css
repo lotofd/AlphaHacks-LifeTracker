@@ -1,0 +1,194 @@
+
+
+
+    body {
+        font-family: 'Open Sans', sans-serif;
+        background-color: #121212;}
+
+    /* UTILITY */
+    .p-small {
+        padding-bottom: 5px;
+    }
+    .p-medium {
+        padding-bottom: 10px;
+    }
+    .p-y {
+        padding: 10px 0;
+    }
+    .m-y {
+        margin: 10px 0;
+    }
+
+    p {
+        font-size: 1.6rem;
+        line-height: 1.5;
+    }
+
+
+
+    .container {
+        
+        padding: 0 20px;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+        color: var(--color-primary);
+        line-height: 2;
+    }
+
+    header form {
+        display: flex;
+        flex-direction: column;
+        width: 30rem;
+    }
+
+    form > * {
+        margin-bottom: 5px;
+        outline: none;
+        font-size: 1.2rem;
+        padding: 7px;
+        border: 1px solid #777;
+        border-radius: 3px;
+        background-color: rgb(218, 218, 218);
+    }
+
+    form textarea {
+        padding: 7px 0 40px 5px;
+        font-size: 1.2rem;
+        font-family: inherit;
+    }
+
+    ::placeholder {
+        font-size: 1.2rem
+    }
+
+    form button {
+        background-color: var(--color-sec);
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        transition: all .3s;
+    }
+
+    form button:hover {
+        background-color: var(--color-primary);
+    }
+
+    .note {
+        padding: 1rem;
+        /* border: 1px solid #777; */
+        background-color: #423a6f;
+        border-radius: 10px;
+        margin: 1rem 0;
+        
+
+    }
+
+
+    .note-text {
+        font-size: 1.2rem;
+        color: rgb(0, 0, 0);
+        background-color: rgb(218, 218, 218);
+        border-radius: 5px;
+        border: black solid 2px;
+        
+    }
+
+    .note-title {
+        font-size: 1.5rem;
+        color: rgb(0, 0, 0);
+        margin: auto;
+        width: 2000px;
+    }
+    .note-text:hover{
+        background-color: rgb(120, 191, 199);
+
+    }
+    .note:hover{
+        padding: 20px;
+        background-color: purple;
+    }
+    .note-btn {
+        padding: 7px;
+        margin-top: 5px;
+        font-size: 20px;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        
+        border: none;
+        border-radius: 7px;
+        outline: none;
+        cursor: pointer;
+    }
+    .note-btn:hover {
+        background-color: rgb(255, 0, 0);
+        border: solid 2px black;
+    }
+    .note-btn:active{
+        transform: translateY(5px);
+
+    }
+
+    .edit-btn {
+        background-color: rgb(0, 0, 0);
+        border-radius: 7px;
+
+    }   
+    .edit-btn:hover{
+        background-color: rgb(0, 175, 245);
+        border:solid black 2px;
+        
+    }
+    .edit-btn:active{
+        transform: translateY(5px);
+
+    }
+    #svejournal{
+        background-color: rgb(0, 0, 0);
+        width: max-content;
+        border: solid 1px rgb(0, 0, 0);
+        padding: 12px 20px;
+        font-size: 24px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: rgb(255, 255, 255);
+        border-radius: 7px;
+        
+        
+    }
+    #svejournal:hover{
+        background-color: rgb(0, 255, 42);
+        border: solid 2px black;
+    }
+    #svejournal:active{
+        background-color: teal;
+        transform: translateY(10px);
+    }
+    #container-section{
+        margin: 50px;
+    }
+    #container-first{
+        margin: 50px;
+        margin-top: -10px;
+    }
+    #note-title:hover{
+        background-color: rgb(188, 231, 248);
+    }
+    #note-text:hover{
+        background-color: rgb(188, 231, 248);
+    }
+    #note-title:focus{
+        background-color: rgb(188, 231, 248);
+    }
+    #note-text:focus{
+        background-color: rgb(188, 231, 248);
+    }
+    .order{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
