@@ -1,0 +1,26 @@
+body{
+    background: #121212;
+  }
+  .container{
+    max-width: 3000px;
+  }
+  input[type=text],
+  input[type=text]:focus{
+    color: #fff;
+    border: none;
+    background: indigo;
+    max-width: 400px;
+  }
+  .todos li{
+    max-width: 3000px;
+    position: relative;
+    left: 0%;
+  }
+  
+  .work{
+    background: indigo;
+    max-width: 3000px;
+    position: relative;
+    left: 0%;
+  }
+  
