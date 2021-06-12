@@ -27,3 +27,24 @@ const filterTodos = term => {
     .forEach(todo => todo.classList.remove('filtered'));
 
 };
+
+// filter todos event
+search.addEventListener('keyup', () => {
+
+    const term = search.value.trim().toLowerCase();
+    filterTodos(term);
+  
+  });
+
+// add todos event
+addForm.addEventListener('submit', e => {
+  
+  e.preventDefault();
+  const todo = addForm.add.value.trim();
+
+  if(todo.length){
+    generateTemplate(todo);
+    addForm.reset();
+  }
+
+});
