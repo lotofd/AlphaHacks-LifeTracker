@@ -101,12 +101,12 @@ h1,h3{
     flex-direction: column;
     padding: 1rem;
     margin-top: -38%;
-    margin-left: 350px;
+    margin-left: 400px;
     transition: 0.3s;
     border: rgb(0, 0, 0) solid 2px;
     border-radius: 10px;
-    width: 1200px;
-    height: 700px;
+    width: 1300px;
+    height: 760px;
 
   
 }
@@ -120,13 +120,13 @@ h1,h3{
 }
 
 .corner{
-    width: 50px;
+    width: 63px;
     height: 70px;
     margin: 2px;
 }
 
 .day{
-    width: 160px;
+    width: 170px;
     height: 80px;
     border: solid 2px rgb(12, 12, 12);
     color: rgb(0, 0, 0);
@@ -152,8 +152,8 @@ h1,h3{
 
 
 .time{
-    width: 50px;
-    height: 115px;
+    width: 70px;
+    height: 129px;
     color: rgb(0, 0, 0);
     text-align: center;
     display: flex;
@@ -170,8 +170,8 @@ h1,h3{
 
 .task{
     background-color: rgb(204, 204, 204);
-    height: 117px;
-    width: 161px;
+    height: 127px;
+    width: 172px;
     margin: 2px;
     cursor: pointer;
     display: flex;
@@ -187,10 +187,10 @@ h1,h3{
 
 /* Reset Button */
 .reset-btn{
-    background-color: white;
-    opacity: 0.7;
+    background-color: crimson;
+    opacity: 0.9;
     height: 53px;
-    width: 150px;
+    width: 155px;
     border-radius: 10px;
     cursor: pointer;
     font-size: large;
@@ -200,12 +200,12 @@ h1,h3{
     text-align: center;
     vertical-align: middle;
     margin-left: -1490px;
-    margin-top: -9px;
+    margin-top: -69px;
 }
 
 .reset-btn:hover{
     opacity: 1;
-    background-color: #ffffff;
+    background-color: crimson;
     font-weight: bold;
 }
 .pop-up{
@@ -259,7 +259,7 @@ h1,h3{
         font-size: 23px; 
 }
 .titleschedule{
-    margin-top: -847px;
+    margin-top: -845px;
     margin-left: 980px;
     color: white;
     font-size: 23px;

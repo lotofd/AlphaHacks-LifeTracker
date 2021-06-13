@@ -37,7 +37,7 @@ function selectTask(e) {
             break
         case 'break':
             activeTask(breakTask, );
-            icon = String("Break");
+            icon = String("Video Games");
             break
         case 'gym':
             activeTask(gymTask, );
@@ -53,7 +53,7 @@ function selectTask(e) {
             break
         case 'friends':
             activeTask(friendsTask, );
-            icon = String("Friend");
+            icon = String("Friends");
             break
         case 'eng':
             activeTask(workTask, );
@@ -69,9 +69,17 @@ function selectTask(e) {
             break
         case 'sci':
             activeTask(workTask, );
-            icon = String(" Sci");
+            icon = String(" Science");
             break
-       
+        case 'sp':
+            activeTask(workTask, );
+            icon = String("Sports");
+            break
+        case 'cd':
+            activeTask(workTask, );
+             icon = String("Coding");
+            break
+        
     }
 
 };
