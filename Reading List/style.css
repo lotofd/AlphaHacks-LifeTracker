@@ -3,12 +3,17 @@
     padding: 0;
     font-family: "Century Gothic";
 }
+body{
+    background: url(https://media.discordapp.net/attachments/841902044457336833/853508997184618496/cbd550d4f42345e536a864def7faff15.png?width=1202&height=676);
+    background-repeat: no-repeat;
+    background-size: 1920px;
+}
 #navbar{
-  background-color: grey;
-  
+  margin-bottom: 70px;
+  background-color: #3b3838;
 }
 .menu{
-    text-align: right;
+    text-align: center;
     font-size: 25px;
     margin-right: 30px;
    
@@ -28,7 +33,7 @@
 
 .menu a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .brand{
     position: absolute;
@@ -40,4 +45,31 @@
     margin-left: 70px;
     margin-top: -55px;
     color: black;
+}
+.container{
+    background-color: white;
+    border-radius: 25px;
+    opacity: 90%;
+}
+#book-form{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.u-full-width{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#heading1{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.brand{
+    margin-left: 450px;
+    margin-top: 22px;
+}
+.menu ul li a:hover{
+    color: skyblue;
+}
+#selected{
+    color: skyblue;
 }
