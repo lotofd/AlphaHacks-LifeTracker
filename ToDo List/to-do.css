@@ -78,7 +78,7 @@ input[type=text]:focus{
 
 #navbar{
   height: 80px;
-  margin-bottom: 170px;
+  margin-bottom: 70px;
   background-color: #3b3838;
 }
 .menu{
@@ -132,5 +132,8 @@ opacity: 100%;
  color: white;
 }
 #searchj{
+  border: 1px solid black;
+}
+#sai{
   border: 1px solid black;
 }

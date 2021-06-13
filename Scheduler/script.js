@@ -71,15 +71,15 @@ function selectTask(e) {
             activeTask(workTask, );
             icon = String(" Science");
             break
-            case 'sp':
-                activeTask(workTask, );
-                icon = String("Sports");
-                break   
-                case 'cd':
+        case 'sp':
+            activeTask(workTask, );
+            icon = String("Sports");
+            break
+        case 'cd':
             activeTask(workTask, );
             icon = String(" Coding");
-            break 
-            
+            break
+
     }
 
 };
