@@ -5,13 +5,14 @@
 }
 body{
     background: url(https://media.discordapp.net/attachments/841902044457336833/853508997184618496/cbd550d4f42345e536a864def7faff15.png?width=1202&height=676);
-    background-repeat: no-repeat;
+     background-repeat: no-repeat;
     background-size: 1920px;
 }
 #navbar{
   margin-bottom: 70px;
   background-color: #3b3838;
-}
+  height: 80px;
+    }
 .menu{
     text-align: center;
     font-size: 25px;
@@ -51,6 +52,9 @@ body{
     border-radius: 25px;
     opacity: 90%;
 }
+.container:hover{
+    opacity: 99%;
+}
 #book-form{
     padding-left: 30px;
     padding-right: 30px;
@@ -58,8 +62,10 @@ body{
 .u-full-width{
     padding-left: 30px;
     padding-right: 30px;
+
 }
 #heading1{
+    font-size: 30px;
     padding-left: 30px;
     padding-top: 30px;
 }
@@ -72,4 +78,8 @@ body{
 }
 #selected{
     color: skyblue;
+}
+#submit:hover{
+    background-color: rgb(209, 209, 209);
+    opacity: 70%;
 }
