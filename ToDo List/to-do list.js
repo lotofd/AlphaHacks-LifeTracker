@@ -4,12 +4,12 @@ const list = document.querySelector('.todos');
 
 const generateTemplate = todo => {
   const html = `
-  <div class="container">
+
     <li class="list-group-item d-flex justify-content-between align-items-center">
       <span>${todo}</span>
       <i class="far fa-trash-alt delete"></i>
     </li>
-  <div>
+
   `;
   list.innerHTML += html;
 };
@@ -28,14 +28,6 @@ const filterTodos = term => {
 
 };
 
-// filter todos event
-search.addEventListener('keyup', () => {
-
-    const term = search.value.trim().toLowerCase();
-    filterTodos(term);
-  
-  });
-
 // add todos event
 addForm.addEventListener('submit', e => {
   
@@ -52,15 +44,21 @@ addForm.addEventListener('submit', e => {
 // delete todos event
 list.addEventListener('click', e => {
 
-    if(e.target.classList.contains('delete')){
-      e.target.parentElement.remove();
-    }
-  
-  });
-
-// clear all events
-  function removeAll(){
-    var lst = document.getElementsByClassName("work");
-      lst[0].innerHTML = "";
+  if(e.target.classList.contains('delete')){
+    e.target.parentElement.remove();
   }
 
+});
+
+// filter todos event
+search.addEventListener('keyup', () => {
+
+  const term = search.value.trim().toLowerCase();
+  filterTodos(term);
+
+});
+
+function removeAll(){
+  var lst = document.getElementsByClassName("work");
+    lst[0].innerHTML = "";
+}
