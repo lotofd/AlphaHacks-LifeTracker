@@ -1,5 +1,7 @@
 body{
-    background: #3fc1c9;
+    background: url(https://media.discordapp.net/attachments/841902044457336833/853508786686001152/wp6774751.png?width=1202&height=676);
+    background-repeat: no-repeat;
+    background-size: 1920px;
   }
   .container{
     max-width: 3000px;
@@ -14,15 +16,14 @@ body{
     max-width: 400px;
   }
   .todos li{
-    max-width: 3000px;
+    max-width: 600px;
+    opacity: 80%;
     position: relative;
     left: 0%;
   }
   
   .work{
-    background: #FF8C00
-
-;
+    margin-left: 620px;
     max-width: 3000px;
     position: relative;
     left: 0%;
@@ -31,7 +32,7 @@ body{
   
   
   .list-group-item{
-    background: white;
+    background: #4f4a4a;
   }
   .delete{
     cursor: pointer;
@@ -59,11 +60,12 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Century Gothic";
-    color: black;
+    color: white;
   }
 
   #navbar{
-    background-color: grey;
+    background-color: white;
+    opacity: 80%;
     padding-bottom: 20px;
     }
     .menu{
@@ -100,3 +102,4 @@ body{
       margin-top: -55px;
       color: black;
     }
+ 
