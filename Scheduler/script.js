@@ -69,9 +69,17 @@ function selectTask(e) {
             break
         case 'sci':
             activeTask(workTask, );
-            icon = String(" Sci");
+            icon = String(" Science");
             break
-       
+            case 'sp':
+                activeTask(workTask, );
+                icon = String("Sports");
+                break   
+                case 'cd':
+            activeTask(workTask, );
+            icon = String(" Coding");
+            break 
+            
     }
 
 };
