@@ -1,5 +1,5 @@
 body{
-    background: url(https://media.discordapp.net/attachments/841902044457336833/853508786686001152/wp6774751.png?width=1202&height=676);
+    background: url(https://media.discordapp.net/attachments/841902044457336833/853508875939741726/38580.png?width=1202&height=676);
     background-repeat: no-repeat;
     background-size: 1920px;
   }
@@ -10,10 +10,9 @@ body{
   input[type=text]:focus{
     color: black;
     border: none;
-    background: grey
-
-;
+    background: grey;
     max-width: 400px;
+    opacity: 70%;
   }
   .todos li{
     max-width: 600px;
@@ -49,12 +48,6 @@ body{
     background-color: red;
     color: white;
   }
-  #clear-list:hover{
-    background-color: grey
-
-;
-    color: white;
-  }
   
   *{
     margin: 0;
@@ -64,42 +57,55 @@ body{
   }
 
   #navbar{
-    background-color: white;
-    opacity: 80%;
-    padding-bottom: 20px;
-    }
-    .menu{
-      text-align: right;
+    margin-bottom: 70px;
+    background-color: #3b3838;
+    margin-bottom: 100px;
+  }
+  .menu{
+      text-align: center;
       font-size: 25px;
       margin-right: 30px;
-     
-    }
-    .menu ul{
+     padding-bottom: 20px;
+  }
+  .menu ul{
       list-style: none;
       display: inline-flex;
       padding-left: 20px;
-    }
-    
-    .menu ul li{
+  }
+  
+  .menu ul li{
       margin-left: 20px;
       margin-right: 20px;
       text-decoration: none;
       margin-top: 30px;
-    }
-    
-    .menu a{
+  }
+  
+  .menu a{
       text-decoration: none;
-      color: black;
-    }
-    .brand{
+      color: white;
+  }
+  .brand{
       position: absolute;
       margin-left: 40px;
       margin-top: 13px;
-    }
-    .brand-header{
+  }
+  .brand-header{
       font-size: 45px;
       margin-left: 70px;
       margin-top: -55px;
       color: black;
-    }
+  }
+.menu ul li a:hover{
+    color: skyblue;
+}
+#selected{
+    color: skyblue;
+}
+
+.brand{
+  margin-left: 450px;
+  margin-top: 22px;
+}
+
+  
  
