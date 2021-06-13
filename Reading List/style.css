@@ -70,3 +70,6 @@ body{
     padding-left: 30px;
     padding-top: 30px;
 }
+#submit:hover{
+    background-color: rgb(200, 200, 200);
+}

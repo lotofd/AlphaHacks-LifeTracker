@@ -28,14 +28,13 @@
     </ul>
 </div>
 </nav>
-
-
+<div class="megadiv">
   <div class="container">
 
     <header class="text-center text-dark my-4">
       <h1 class="mb-4">Todo List</h1>
       <form class="search">
-        <input class="form-control m-auto" type="text" name="search" placeholder="search todos" />
+        <input class="form-control m-auto" type="text" name="search" placeholder="Search Tasks" />
       </form>
     </header>
 
@@ -56,12 +55,15 @@
   </div>
 
     <form class="add text-center my-4">
-      <label class="text-dark">Add a new todo...</label>
-      <input class="form-control m-auto" type="text" name="add" />
+      <h1 style="color: black;"> Add a new Task</h1>
+      <input class="form-control m-auto" id="add-task" type="text" name="add" placeholder="Add Task..."/>
     </form>
 </div>
 
   <button type="button" id="clear-list" onclick="removeAll()">Clear Items</button>
+  
+</div>
+
   
 
   <script src="to-do list.js"></script>

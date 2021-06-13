@@ -199,8 +199,8 @@ h1,h3{
     color: rgb(0, 0, 0);
     text-align: center;
     vertical-align: middle;
-    margin-left: -1457px;
-    margin-top: -43px;
+    margin-left: -1490px;
+    margin-top: -30px;
     border: none;
 }
 
@@ -254,7 +254,7 @@ h1,h3{
 
 #chooseyourtask{
         font-family: Arial, Helvetica, sans-serif ;
-        color: white;
+        color: rgb(255, 255, 255);
         margin-top: 10px;
         margin-left: -80px;     
         font-size: 23px; 
@@ -262,7 +262,7 @@ h1,h3{
 .titleschedule{
     margin-top: -845px;
     margin-left: 980px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 23px;
 }
 

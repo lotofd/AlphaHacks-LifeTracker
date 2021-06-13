@@ -3,6 +3,14 @@ body{
     background-repeat: no-repeat;
     background-size: 1920px;
   }
+  .megadiv{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    border: solid black 1px;
+    opacity: 0.9;
+    border-radius: 25px;
+  }
   .container{
     max-width: 3000px;
   }
@@ -15,9 +23,10 @@ body{
     opacity: 70%;
   }
   .todos li{
-    max-width: 600px;
+    max-width: 700px;
     opacity: 80%;
-    position: relative;
+    margin-left: -510px;
+    
     left: 0%;
   }
   
@@ -27,9 +36,14 @@ body{
     position: relative;
     left: 0%;
   }
+  #add-task{
+    border:black solid 1px;
+  }
   
   
-  
+  .form-control{
+    border: solid 1px black;
+  }
   .list-group-item{
     background: white;
   }
@@ -110,4 +124,7 @@ body{
   opacity: 100%;
 }
   
- 
+ .text-dark{
+   font-size: 30px;
+   color: white;
+ }
