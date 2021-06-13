@@ -12,6 +12,7 @@ const noBtn = document.getElementById('btn__no');
 const yesBtn = document.getElementById('btn__yes');
 
 
+
 let selectedColor, active;
 
 //Event Listeners
@@ -20,6 +21,8 @@ scheduleContainer.addEventListener('click', setColors);
 resetBtn.addEventListener('click', openPopup);
 noBtn.addEventListener('click', closePopup);
 yesBtn.addEventListener('click', deleteTasks);
+
+
 
 // Tasks click  (3)
 function selectTask(e) {
@@ -68,7 +71,7 @@ function selectTask(e) {
             activeTask(workTask, );
             icon = String(" Sci");
             break
-
+       
     }
 
 };
@@ -118,11 +121,11 @@ function deleteTasks() {
     closePopup();
 }
 // Open Pop-up
-function openPopup(){
+function openPopup() {
     popUp.style.display = 'flex';
 }
 
 // Close Pop-up
-function closePopup(){
+function closePopup() {
     popUp.style.display = 'none';
 }
