@@ -1,71 +1,136 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="to-do.css">
-  <link rel="shortcut icon" href="https://media.discordapp.net/attachments/765816490959175690/851102420024164352/Ralctech-logos.jpeg?width=676&height=676"/>
-  <title>Todo List</title>
-</head>
-<body>
-
-  <nav id="navbar">
-    <div class="brand">
-        <img src="https://media.discordapp.net/attachments/765816490959175690/851102420024164352/Ralctech-logos.jpeg?width=676&height=676" height="50" alt="logo">
-        <header class="brand-header">Raltech</header> 
-    </div>
-    <div class="menu">
-    <ul>
-      <li><a  href="/Journal/index.html">Journal</a></li>
-      <li><a href="/Scheduler/index.html">Weekly Plan</a></li>
-      <li><a href="/Reading List/index.html">Reading List</a></li>
-      <li><a id="selected" href="/ToDo List/index.html">To Do List</a></li>
-      <li><a href="#">Chat App</a></li>
-    </ul>
-</div>
-</nav>
-<div class="megadiv">
-  <div class="container">
-
-    <header class="text-center text-dark my-4">
-      <h1 class="mb-4">Todo List</h1>
-      <form class="search">
-        <input id="searchj" class="form-control m-auto" type="text" name="search" placeholder="Search Tasks" />
-      </form>
-    </header>
-
-    <div class="things">
-
-    <div class ="work">
-    <ul class="list-group todos mx-auto text-light">
-      <li class="list-group-item d-flex justify-content-between align-items-center">
-        <span>sleep</span>
-        <i class="far fa-trash-alt delete"></i>
-      </li>
-      <li class="list-group-item d-flex justify-content-between align-items-center">
-        <span>play</span>
-      <i class="far fa-trash-alt delete"></i>
-      </li>
-    </ul>
-  </div>
-  </div>
-
-    <form class="add text-center my-4">
-      <h1 style="color: black;" id="heading5"> Add a new Task</h1>
-      <input class="form-control m-auto" id="add-task" type="text" name="add" placeholder="Add Task..."/>
-    </form>
-</div>
-
-  <button type="button" id="clear-list" onclick="removeAll()">Clear Items</button>
+body{
+  background: url(https://media.discordapp.net/attachments/841902044457336833/853508875939741726/38580.png?width=1202&height=676);
+  background-repeat: no-repeat;
+  background-size: 1920px;
+}
+#add-task{
+  border:black solid 1px;
+}
+.megadiv{
+  background-color: white;
+  width: 50%;
+  margin: auto;
+  border: 1px solid black;
+  opacity: 0.9;
+  border-radius: 25px;
+}
+.container{
+  max-width: 3000px;
+}
+input[type=text],
+input[type=text]:focus{
+  color: black;
+  border: none;
+  background: white;
+  max-width: 400px;
+  opacity: 70%;
+}
+.todos li{
+  max-width: 700px;
+  opacity: 80%;
+  margin-left: -510px;
   
-</div>
+  left: 0%;
+}
 
+.work{
+  margin-left: 620px;
+  max-width: 3000px;
+  position: relative;
+  left: 0%;
+}
+
+
+
+.form-control{
+  border: solid 1px black;
+}
+.list-group-item{
+  background: white;
   
+}
+.delete{
+  cursor: pointer;
+}
+.filtered{
+  display: none !important;
+}
 
-  <script src="to-do list.js"></script>
-</body>
-</html>
+#clear-list{
+  width: 30%;
+  font-size: 40px;
+  font-family: "Century Gothic";
+  margin: 40px 35%;
+  background-color: red;
+  color: white;
+  opacity: 80%;
+  border: none;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Century Gothic";
+  color: black;
+}
+
+#navbar{
+  height: 80px;
+  margin-bottom: 170px;
+  background-color: #3b3838;
+}
+.menu{
+    text-align: right;
+    font-size: 25px;
+    margin-right: 30px;
+   
+}
+.menu ul{
+    list-style: none;
+    display: inline-flex;
+    padding-left: 20px;
+}
+
+.menu ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.brand{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 13px;
+}
+.brand-header{
+    font-size: 45px;
+    margin-left: 70px;
+    margin-top: -55px;
+    color: white;
+}
+.menu ul li a:hover{
+  color: skyblue;
+}
+#selected{
+  color: skyblue;
+}
+
+
+#clear-list:hover{
+opacity: 100%;
+}
+
+.text-dark{
+ font-size: 30px;
+ color: white;
+}
+#searchj{
+  border: 1px solid black;
+}
