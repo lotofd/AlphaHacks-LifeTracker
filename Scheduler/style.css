@@ -106,7 +106,7 @@ h1,h3{
     border: rgb(0, 0, 0) solid 2px;
     border-radius: 10px;
     width: 1300px;
-    height: 760px;
+    height: 720px;
 
   
 }
@@ -153,7 +153,7 @@ h1,h3{
 
 .time{
     width: 70px;
-    height: 129px;
+    height: 115px;
     color: rgb(0, 0, 0);
     text-align: center;
     display: flex;
@@ -170,7 +170,7 @@ h1,h3{
 
 .task{
     background-color: rgb(204, 204, 204);
-    height: 127px;
+    height: 124px;
     width: 172px;
     margin: 2px;
     cursor: pointer;
@@ -199,8 +199,9 @@ h1,h3{
     color: rgb(0, 0, 0);
     text-align: center;
     vertical-align: middle;
-    margin-left: -1490px;
-    margin-top: -69px;
+    margin-left: -1457px;
+    margin-top: -43px;
+    border: none;
 }
 
 .reset-btn:hover{
@@ -296,8 +297,9 @@ background-color: red;
 }
   
 #navbar{
-    background-color: grey;
-    padding-bottom: 20px;
+    height: 80px;
+    margin-bottom: 0px;
+    background-color: #3b3838;
   }
   .menu{
       text-align: right;
@@ -320,7 +322,7 @@ background-color: red;
   
   .menu a{
       text-decoration: none;
-      color: black;
+      color: white;
   }
   .brand{
       position: absolute;
@@ -331,5 +333,11 @@ background-color: red;
       font-size: 45px;
       margin-left: 70px;
       margin-top: -55px;
-      color: black;
+      color: white;
   }
+.menu ul li a:hover{
+    color: skyblue;
+}
+#selected{
+    color: skyblue;
+}
